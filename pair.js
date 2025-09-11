@@ -75,11 +75,11 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "dark~" + string_session;
+                        let md = "KAVIDU-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*Hey there, 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 user!* 👋🏻
+                        let desc = `*Hey there, 𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍 user!* 👋🏻
 
-Thanks for using *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* — your session has been successfully created!
+Thanks for using 𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍 — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -88,23 +88,23 @@ Thanks for using *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* — yo
 
 *✅ Stay Updated:*  
 join our official whatsApp channel:  
-https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e
+https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42
 
 *💻 Support Group:*
 join our official whatsApp group:
-https://chat.whatsapp.com/IGgPW6pTrH14oAWCJALYR5?mode=ac_c
+https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42
 
 ——————
 
-> *© Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*
+> *© Powered by kavidu-md*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
-thumbnailUrl: "https://files.catbox.moe/brlkte.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e",
+title: "𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍",
+thumbnailUrl: "https://files.catbox.moe/th8rt3.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -115,7 +115,7 @@ renderLargerThumbnail: true
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `Hey there, 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳 user!* 👋🏻
 
-Thanks for using *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* — your session has been successfully created!
+Thanks for using *𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -124,23 +124,23 @@ Thanks for using *𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳* — yo
 
 *✅ Stay Updated:*  
 join our official whatsApp channel:  
-https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e
+https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42
 
 *💻 Support Group:*  
 join our official whatsApp group: 
-https://chat.whatsapp.com/IGgPW6pTrH14oAWCJALYR5?mode=ac_c
+https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42
 
 ——————
 
-> *© Powered by 𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳*
+> *© Powered by 𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "𝙳𝙰𝚁𝙺-𝙺𝙽𝙸𝙶𝙷𝚃-𝚇𝙼𝙳",
-thumbnailUrl: "https://files.catbox.moe/brlkte.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VbAM4eo3AzNQZ1WleW3e",
+title: "𝚔𝚊𝚟𝚒𝚍𝚞-𝚖𝚍",
+thumbnailUrl: "https://files.catbox.moe/th8rt3.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5sjsyA89Mim19ZJl42",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -157,7 +157,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    DARK_KNIGHT_XMD_PAIR_CODE();
+                    KAVIDU_MD_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -168,7 +168,7 @@ showAdAttribution: true
             }
         }
     }
-   return await DARK_KNIGHT_XMD_PAIR_CODE();
+   return await KAVIDU_MD_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
